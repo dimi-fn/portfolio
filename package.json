@@ -4,7 +4,11 @@
   "description": "This is a project about creating and hosting my personal portfolio.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:scss": "node-sass sass/main.scss css/style.css -w",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css -o css/style.css",
+    "compress:css": "node-sass css/style.css css/style.css --output-style compressed",
+    "build": "npm-run-all prefix:css compress:css"
   },
   "repository": {
     "type": "git",
