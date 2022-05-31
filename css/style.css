@@ -611,6 +611,8 @@ textarea {
   background: #000;
   color: #fff; }
   .main-footer__upper {
+    /* max-height: 100px;
+    height: 100%; */
     display: flex;
     justify-content: space-between;
     padding: 8rem 0; }
@@ -713,4 +715,11 @@ textarea {
 
   .hyperlinks:hover{
     color: rgb(28, 13, 243);
+  }
+
+  .hyperlink-white{
+    text-decoration: underline;
+  }
+  .hyperlink-white:hover{
+    color: rgb(161, 207, 109);
   }
