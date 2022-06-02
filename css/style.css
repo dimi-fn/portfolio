@@ -200,7 +200,9 @@ textarea {
     top: 50%;
     border: 2px solid #eee;
     border-left: 2px solid #eee;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);   
+  }
+
     @media only screen and (max-width: 56.25em) {
       .home-hero__socials {
         display: none; } }
@@ -226,6 +228,11 @@ textarea {
       border-bottom: 0; }
   .home-hero__social-icon {
     width: 100%; }
+    .home-hero__social-icon:hover{
+      transition: all 0.1s;
+      transform:scale(1.5); 
+  }
+  
   .home-hero__content {
     position: absolute;
     top: 50%;
@@ -642,6 +649,10 @@ textarea {
   .main-footer__icon {
     margin-right: 1rem;
     width: 2.5rem; }
+    .main-footer__icon:hover{
+      transition: all 0.1s;
+      transform:scale(1.5); 
+  }
     .main-footer__icon--mr-none {
       margin-right: 0; }
   .main-footer__lower {
