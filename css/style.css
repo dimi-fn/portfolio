@@ -343,6 +343,12 @@ textarea {
     width: 95%;
     border-radius: 5px;
     margin: 5rem auto 0 auto; }
+
+    .contact__form-container:hover{
+      transition: all 0.1s;
+      transform:scale(1.02);
+  }
+
     @media only screen and (max-width: 37.5em) {
       .contact__form-container {
         padding: 3rem; } }
@@ -616,7 +622,7 @@ textarea {
 
 .main-footer {
   background: #000;
-  color: #fff; }
+  color: #fff;}
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
@@ -713,3 +719,14 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+.a-btn{
+  cursor:pointer;
+}    
+
+.status{
+  font-size:20px;
+  text-align: left;
+  margin-top: -30px;
+  
+}
