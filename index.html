@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Dimitris Fanis | Portfolio</title>
     <meta name="description" content="Dimitris Fanis personal portfolio webpage" />
 
@@ -15,6 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-------------------------------- JavaScript ------------------------------------>
+    <script type="text/javascript" defer src="index.js" ></script>               
+        
+    
   </head>
   <body>
     <header class="header">
@@ -296,12 +301,12 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <!-- contact form -->
+          <form id="contact-form" class="contact__form" action="https://formspree.io/f/xoqyagng" method="POST">
             <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input
-                required
-                placeholder="Enter Your Name"
+              <label  class="contact__form-label" for="name">Name</label>
+              <input 
+                placeholder="Enter Your Name..."
                 type="text"
                 class="contact__form-input"
                 name="name"
@@ -309,10 +314,9 @@
               />
             </div>
             <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
+              <label for="email" class="contact__form-label" for="email">Email</label>
               <input
-                required
-                placeholder="Enter Your Email"
+                placeholder="Enter Your Email..."
                 type="text"
                 class="contact__form-input"
                 name="email"
@@ -322,22 +326,26 @@
             <div class="contact__form-field">
               <label class="contact__form-label" for="message">Message</label>
               <textarea
-                required
                 cols="30"
                 rows="10"
                 class="contact__form-input"
-                placeholder="Enter Your Message"
+                placeholder="Enter Your Message..."
                 name="message"
                 id="message"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
-            </button>
           </form>
+          <!-- END: contact form -->
+          <div class="">
+            <a class="btn btn--med btn--theme dynamicBgClr a-btn" onclick="validateForm();";>Send Email</a>
         </div>
+        <div class="status"></div>
+        
       </div>
+
     </section>
+
+    <!------------------------------- Footer ------------------------------->
     <footer class="main-footer">
       <div class="main-container">
         <div class="main-footer__upper">
@@ -395,7 +403,7 @@
         </div>
       </div>
     </footer>
-
-    <script src="./index.js"></script>
+    <!------------------------------- END OF: Footer ------------------------------->
+          
   </body>
 </html>
