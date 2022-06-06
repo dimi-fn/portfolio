@@ -201,6 +201,7 @@ textarea {
     border: 2px solid #eee;
     border-left: 2px solid #eee;
     transform: translateY(-50%);   
+
   }
 
     @media only screen and (max-width: 56.25em) {
@@ -231,6 +232,7 @@ textarea {
     .home-hero__social-icon:hover{
       transition: all 0.1s;
       transform:scale(1.5); 
+      padding-left: 5px;
   }
   
   .home-hero__content {
@@ -622,7 +624,8 @@ textarea {
 
 .main-footer {
   background: #000;
-  color: #fff;}
+  color: #fff;
+}
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
@@ -651,13 +654,17 @@ textarea {
     font-size: 1.5rem;
     line-height: 1.7; }
   .main-footer__social-cont {
-    margin-top: 2rem; }
+    margin-top: 2rem; 
+  }
   .main-footer__icon {
-    margin-right: 1rem;
-    width: 2.5rem; }
+    margin-right: 2rem;
+    width: 2.5rem; 
+  }
     .main-footer__icon:hover{
       transition: all 0.1s;
       transform:scale(1.5); 
+      /* padding-right: 10px; */
+      
   }
     .main-footer__icon--mr-none {
       margin-right: 0; }
@@ -730,3 +737,9 @@ textarea {
   margin-top: -30px;
   
 }
+
+.main-footer-container {
+  max-width: 120rem;
+  margin: auto;
+  width: 92%; 
+  text-align: center;}
