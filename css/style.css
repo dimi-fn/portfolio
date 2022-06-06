@@ -761,3 +761,19 @@ textarea {
   margin: auto;
   width: 92%; 
   text-align: center;}
+
+.hyperlinks{
+  text-decoration: underline;
+  cursor: pointer;
+  color:#0000ff; 
+}
+
+.hyperlinks:hover{
+  color:#060ae9; 
+  text-decoration:dashed;
+}
+
+.hyperlinks:active{
+  color:#03355eee; 
+}
+
