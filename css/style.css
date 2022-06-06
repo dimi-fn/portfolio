@@ -326,7 +326,8 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    width: 100%;
+    width: 90%;
+    height: 95%;
     display: block;
     object-fit: cover; }
   .projects__row-content {
