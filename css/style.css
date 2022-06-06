@@ -184,6 +184,10 @@ textarea {
   background-color: rgba(192, 192, 192, 0.425);
 }
 
+.mobile-send-email{
+  margin-bottom: 10px;
+}
+
 .sec-pad {
   padding: 12rem 0; }
   @media only screen and (max-width: 56.25em) {
