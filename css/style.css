@@ -164,6 +164,22 @@ textarea {
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
+.btn:hover{
+  background-color:#004ab9;
+}   
+
+.btn:active{
+  background-color:#000cb9;
+}   
+
+.go-to-projects:hover{
+  background-color: rgba(192, 192, 192, 0.959);
+}
+
+.go-to-projects:active{
+  background-color: rgba(192, 192, 192, 0.425);
+}
+
 .sec-pad {
   padding: 12rem 0; }
   @media only screen and (max-width: 56.25em) {
