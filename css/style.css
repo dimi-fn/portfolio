@@ -791,3 +791,10 @@ textarea {
   color:#03355eee; 
 }
 
+
+@media only screen and (max-width: 1000px){
+  #project-img{
+    margin: auto;
+    display: block;
+  }
+}
