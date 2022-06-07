@@ -30,12 +30,14 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
   })
 }
 
-// ---
+// navigate to homepage when clicking the logo
 const headerLogoConatiner = document.querySelector('.header__logo-container')
 
 headerLogoConatiner.addEventListener('click', () => {
-  location.href = 'index.html'
+  location.href = '/'
 })
+
+
 /************************ Hamburger Menu ************************/ 
 
 /************************ Contact form input Validation **************************/
