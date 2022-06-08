@@ -807,15 +807,15 @@ textarea {
 }
 .scroll-up-icon{
   position: fixed;
-  right: 0.6%;
+  right: 0.4%;
   bottom: 1.25%;
   cursor: pointer;
   /* display: none; */
 }
 
 .up-arrow {
-  width: 3.7rem;
-  height: 3.3rem;
+  width: 4rem;
+  height: 3.5rem;
 }
 /* end: scroll to top functionality*/
 
