@@ -798,3 +798,24 @@ textarea {
     display: block;
   }
 }
+
+/* scroll to top functionality*/
+.socicon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 35%;
+}
+.scroll-up-icon{
+  position: fixed;
+  right: 0.6%;
+  bottom: 1.25%;
+  cursor: pointer;
+  /* display: none; */
+}
+
+.up-arrow {
+  width: 3.7rem;
+  height: 3.3rem;
+}
+/* end: scroll to top functionality*/
+

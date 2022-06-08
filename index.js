@@ -80,3 +80,37 @@ const validateForm = async() =>{
 };
 
 
+/************************ Scroll up icon functionality **************************/
+// @ https://fjolt.com/article/javascript-check-if-user-scrolled-to-bottom
+
+// id: scroll-up-icon
+// id: scroll-up-reference
+
+var scrollReference = document.querySelector("#scroll-up-reference"); 
+var scrollUpIcon = document.querySelector("#scroll-up-icon");
+
+// scroll to top functionality
+scrollUpIcon.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function(e) {
+  document.addEventListener('scroll', function(e) {
+      let documentHeight = document.body.scrollHeight;
+      let currentScroll = window.scrollY + window.innerHeight;
+      // When the user is [modifier]px from the bottom, fire the event.
+      let modifier = 3200; 
+      if(currentScroll + modifier > documentHeight) {
+          scrollUpIcon.style.display="block";
+      }
+      else{
+          scrollUpIcon.style.display="none";
+      }
+  })
+})
+
+/************************ End: Scroll up icon functionality **************************/
