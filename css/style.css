@@ -813,6 +813,12 @@ textarea {
   /* display: none; */
 }
 
+.scroll-up-icon:hover{
+  transition: all 0.25s;
+  transform:scale(1.1); 
+  padding-bottom: 6px;
+}
+
 .up-arrow {
   width: 4rem;
   height: 3.5rem;
