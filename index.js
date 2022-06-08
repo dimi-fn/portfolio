@@ -84,7 +84,7 @@ const validateForm = async() =>{
 // id: scroll-up-icon
 // id: scroll-up-reference
 
-var scrollReference = document.querySelector("#scroll-up-reference"); 
+/* var scrollReference = document.querySelector("#scroll-up-reference");  */
 var scrollUpIcon = document.querySelector("#scroll-up-icon");
 
 // scroll to top functionality
