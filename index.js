@@ -81,8 +81,6 @@ const validateForm = async() =>{
 
 
 /************************ Scroll up icon functionality **************************/
-// @ https://fjolt.com/article/javascript-check-if-user-scrolled-to-bottom
-
 // id: scroll-up-icon
 // id: scroll-up-reference
 
@@ -98,11 +96,12 @@ scrollUpIcon.addEventListener("click", () => {
   });
 });
 
+// @ https://fjolt.com/article/javascript-check-if-user-scrolled-to-bottom
 document.addEventListener('DOMContentLoaded', function(e) {
   document.addEventListener('scroll', function(e) {
       let documentHeight = document.body.scrollHeight;
       let currentScroll = window.scrollY + window.innerHeight;
-      // When the user is [modifier]px from the bottom, fire the event.
+      // When the user is modifier px from the bottom, fire the event.
       let modifier = 3200; 
       if(currentScroll + modifier > documentHeight) {
           scrollUpIcon.style.display="block";
