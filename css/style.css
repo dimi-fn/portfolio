@@ -500,7 +500,8 @@ textarea {
   .project-details__content-title {
     font-weight: 700;
     font-size: 2.8rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    margin-top: 0.5rem; }
     @media only screen and (max-width: 37.5em) {
       .project-details__content-title {
         font-size: 2.4rem; } }
@@ -881,3 +882,15 @@ textarea {
   }
 }
 /* End: animation of "welcome" */
+
+.citing-main{
+  text-align: center;
+  padding-right: 15%;
+  font-size: 11px;
+}
+
+.citing-projects{
+  text-align: center;
+  /* padding-right: 0%; */
+  font-size: 11px;
+}
