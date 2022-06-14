@@ -213,6 +213,11 @@ textarea {
     .text-primary {
       font-size: 2rem; } }
 
+.italics-text{
+  text-align: justify;
+  font-style: italic;
+}
+
 .d-none {
   display: none; }
 
