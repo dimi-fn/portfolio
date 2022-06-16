@@ -9,7 +9,6 @@ $breakpoint arguement choices:
 - tab-port
 - tab-land
 - big-desktop
-
 Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
 */
 *,
@@ -584,7 +583,9 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 5rem; }
+    padding: 1rem 5rem;
+    /* background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8); */
+    }
     @media only screen and (max-width: 56.25em) {
       .header__content {
         padding: 0 2rem; } }
@@ -688,8 +689,9 @@ textarea {
     border-bottom: 0; }
 
 .main-footer {
-  background: #000;
+  /* background: #000; */
   color: #fff;
+  background-image: linear-gradient(to bottom right, #5761B2, #1FC5A8);  
 }
   .main-footer__upper {
     display: flex;
@@ -722,10 +724,12 @@ textarea {
     
     margin-top: 2rem; 
     padding-left: 17px;
+    color:black;
   }
   .main-footer__icon {
     margin-right: 2rem;
     width: 2.5rem; 
+    
   }
     .main-footer__icon:hover{
       transition: all 0.1s;
@@ -738,7 +742,11 @@ textarea {
   .main-footer__lower {
     padding: 4rem 0;
     border-top: 1px solid #444;
-    color: #eee;
+    
+    /* color: #eee; */
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+
     font-size: 1.2rem;
     text-align: left;
     text-align: center; }
@@ -749,6 +757,12 @@ textarea {
     @media only screen and (max-width: 56.25em) {
       .main-footer__lower {
         padding: 3.5rem 0; } }
+
+
+.footer-socials{
+  color: rgb(0, 0, 0);
+    font-weight:bolder;
+}
 
 .skills {
   display: flex;
