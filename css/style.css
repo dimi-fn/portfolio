@@ -932,6 +932,15 @@ textarea {
   font-size: 11px;
 }
 
+@media only screen and (max-width: 1000px){
+  .citing-main{
+    text-align: center;
+    padding-right: 15%;
+    font-size: 11px;
+    padding-bottom: 60px;
+  }
+}
+
 .citing-projects{
   text-align: center;
   /* padding-right: 0%; */
