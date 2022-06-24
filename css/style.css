@@ -826,14 +826,15 @@ textarea {
   text-align: center;}
 
 .hyperlinks{
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  text-decoration: none;
   cursor: pointer;
   color:#0000ff; 
 }
 
 .hyperlinks:hover{
   color:#060ae9; 
-  text-decoration:dashed;
+  text-decoration:underline;
 }
 
 .hyperlinks:active{
@@ -946,3 +947,31 @@ textarea {
   /* padding-right: 0%; */
   font-size: 11px;
 }
+
+/********************************************** CSS for blog articles **********************************************/
+.blog-intent-paragraph {
+  text-indent: 50px;
+}
+
+.blog-intent-all-text{
+  padding-left: 20px;
+  line-height: 2.0;
+}
+
+.blog-intent-all-text-double{
+  padding-left: 35px;
+  line-height: 1.8;
+}
+
+#blog-h2{
+  font-size: 2.5em;
+}
+#blog-h3{
+  font-size: 2.25em;
+}
+
+ul#a{
+  list-style-type: square !important;
+}
+
+/********************************************** CSS for blog articles **********************************************/

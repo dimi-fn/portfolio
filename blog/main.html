@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dimitris Fanis | Blog</title>
+    
+    <!-- SEO -->
+    <!-- <meta name="description" content="Dimitris Fanis' personal portfolio webpage | Welcome to my portfolio webpage where you can find more details about me, the projects I've built, as well as the blog articles I've written!" /> -->
+    <meta name="description" content="Welcome to Dimitris Fanis'portfolio webpage and blog section" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-------------------------------- JavaScript ------------------------------------>
+    <script type="text/javascript" defer src="../index.js" ></script>  
+    
+    <!----------------------- favicon ---------------------------------------->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/business_portfolio.webp"/>   
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="../assets/profile.jpg"
+              alt="Dimitris Fanis logo image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Dimitris Fanis</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="../index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./main.html" class="header__link">
+                Blog
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="../assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="../assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="../index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Dimitris Fanis</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            <span class="animate-welcome">Welcome</span> to the blog section of my portfolio website where you can have a read through the articles I've written!
+          </p>
+        </div>
+        <!-- <div class="home-hero__cta">
+          <a href="./#about" class="btn btn--bg light-btn">Learn About Me</a>
+        </div> -->
+        <div class="home-hero__cta">
+          <a href="#articles" class="btn btn--bg light-btn">Go to Articles</a>
+        </div>
+      </div>
+
+      <!------------------------------- social icons ------------------------------->
+      <div class="home-hero__socials">
+        <!-- linkedin -->
+        <div class="home-hero__social">
+          <a class="home-hero__social-icon-link" href="https://www.linkedin.com/in/dimitrisfanis/" title="LinkedIn" target="_blank">
+            <img
+              src="../assets/png/linkedin-ico.png"
+              alt="LinkedIn icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <!-- github -->
+        <div class="home-hero__social">
+          <a class="home-hero__social-icon-link" href="https://github.com/dimi-fn" title="Github" target="_blank">
+            <img
+              src="../assets/png/github-ico.png"
+              alt="GitHub icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <!-- twitter -->
+        <div class="home-hero__social">
+          <a class="home-hero__social-icon-link" href="https://twitter.com/dimi_fanis" title="Twitter" target="_blank">
+            <img
+              src="../assets/png/twitter-ico.png"
+              alt="Twitter icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <!-- stackoverflow -->
+        <div class="home-hero__social">
+          <a class="home-hero__social-icon-link" href="https://stackoverflow.com/users/13834173/dimi-fn?tab=profile" title="Stack Overflow" target="_blank">
+            <img
+              src="../assets/png/stackoverflow-ico.png"
+              alt="Stack Overflow icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <!-- medium -->
+        <div class="home-hero__social">
+          <a
+            href="https://dimitrisfanis.medium.com/"  title="Medium" target="_blank" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" >
+            <img
+              src="../assets/png/medium-ico.png"
+              alt="Medium icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <!------------------------------- END OF: social icons ------------------------------->
+
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    
+    <section id="articles" class="projects sec-pad">
+      <div class="main-container" id="scroll-up-reference">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Articles</span>
+          <span class="heading-sec__sub">
+            <!-- Check out some of my projects below -->
+          </span>
+        </h2>
+
+        <!------------------------------- Projects ------------------------------->
+        <div class="projects__content">
+          
+          <!-- project: Various Data Science Scripts -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <a href="./articles/seo.html" target="_blank" title="Read more about this project"> 
+                <img
+                  src="../assets/blog/seo/seo.webp"
+                  alt="A man in front of a computer with 3 monitors"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </a>
+              <!-- Image Citing -->
+              <p class="citing-main">Photo by<cite>
+                <a class="hyperlinks" href="https://unsplash.com/@hostreviews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Stephen Phillips - Hostreviews.co.uk</a> </cite>on<cite> <a class="hyperlinks" href="https://unsplash.com/s/photos/seo" target="_blank">Unsplash</a> </cite>
+              </p>
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">A Search Engine Optimization (SEO) Handbook for Beginners</h3>
+              <p class="projects__row-content-desc">
+                This is a research study on SEO in the context of Information Retrieval and organic search results: Recommender Systems evaluation metrics, keyword research, content planning, strategy, optimization, and SEO evaluation.
+              </p>
+              <a
+                href="./articles/seo.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >read article</a
+              >
+            </div>
+            
+          </div>
+
+          
+        </div>
+        <!------------------------------- END OF: Projects ------------------------------->
+      </div>
+
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            I'd be happy to receive your message! Please feel free to fill out the form below, and I will try to get back to you as soon as possible!
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <!-- contact form -->
+          <form id="contact-form" class="contact__form" action="https://formspree.io/f/xoqyagng" method="POST">
+            <div class="contact__form-field">
+              <label  class="contact__form-label" for="name">Name</label>
+              <input 
+                placeholder="Enter Your Name..."
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label for="email" class="contact__form-label" for="email">Email</label>
+              <input
+                placeholder="Enter Your Email..."
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message..."
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+          </form>
+          <!-- END: contact form -->
+          <div class="">
+            <a class="btn btn--med btn--theme dynamicBgClr a-btn mobile-send-email" onclick="validateForm();";>Send Email</a>
+        </div>
+        <div class="status"></div>
+        
+      </div>
+
+    </section>
+
+     <!-- Scroll to top -->
+    <i class="scroll-up-icon" id="scroll-up-icon"
+    ><img
+      src="../assets/icons/icons8-scroll-up-48-_1_.webp"
+      class="socicon up-arrow"
+      alt="scroll up icon"
+      title="Go to Top"
+    /></i>
+    <!-- Scroll to top -->
+
+    <!------------------------------- Footer ------------------------------->
+    <footer class="main-footer">
+
+      <div class="main-footer-container">
+        
+        <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span class="footer-socials">Connect with me</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a href="https://www.linkedin.com/in/dimitrisfanis/" title="LinkedIn" target="_blank">
+                <img
+                  src="../assets/png/linkedin-ico.png"
+                  alt="LinkedIn icon"
+                  class="main-footer__icon"
+                />
+              </a>
+              <a href="https://github.com/dimi-fn" title="Github" target="_blank">
+                <img
+                  src="../assets/png/github-ico.png"
+                  alt="GitHub icon"
+                  class="main-footer__icon"
+                />
+              </a>
+              <a href="https://twitter.com/dimi_fanis" title="Twitter" target="_blank">
+                <img
+                  src="../assets/png/twitter-ico.png"
+                  alt="Twitter icon"
+                  class="main-footer__icon"
+                />
+              </a>
+              <a href="https://stackoverflow.com/users/13834173/dimi-fn?tab=profile" title="Stack Overflow" target="_blank">
+                <img
+                  src="../assets/png/stackoverflow-ico.png"
+                  alt="Stack Overflow icon"
+                  class="main-footer__icon"
+                />
+              </a>
+              <a href="https://dimitrisfanis.medium.com/"  title="Medium" target="_blank" >
+              <img
+                src="../assets/png/medium-ico.png"
+                alt="Medium icon"
+                class="main-footer__icon"
+                />
+              </a>
+            </div>
+          </div>
+        <div class="main-footer__lower">
+          <!-- <hr> -->
+          &copy; Copyright 2022 | Dimitris Fanis
+        </div>
+      </div>
+
+    </footer>
+    <!------------------------------- END OF: Footer ------------------------------->
+          
+
+  </body>
+</html>
