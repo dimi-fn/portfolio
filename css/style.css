@@ -339,11 +339,26 @@ textarea {
     margin-bottom: 0; }
   .projects__row-img-cont {
     overflow: hidden; }
-  @media only screen and (max-width: 1000px){
+  @media only screen and (max-width: 1000px) {
     .projects__row-img-cont {
-      padding-left: 20px;
+      padding-left: 60px;
       }
     }
+    @media only screen and (max-width: 480px){
+      .projects__row-img-cont {
+        padding-left: 30px;
+        }
+      }
+
+
+
+
+
+
+
+
+
+
 
   .projects__row-img-cont:hover{
     transition: all 0.33s;
