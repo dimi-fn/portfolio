@@ -2,6 +2,7 @@
 /package-lock.json
 /dev_files
 /.env
+/blog/articles/corrVScausation/corr_vs_causation.docx
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/node
