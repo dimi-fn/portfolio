@@ -3,7 +3,7 @@
 /dev_files
 /.env
 /blog/articles/corrVScausation/corr_vs_causation.docx
-
+/blog/articles/corrVScausation/correlationVScausation.md
 
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
