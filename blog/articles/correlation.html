@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dimitris Fanis | Correlation vs. Causation: Why Correlation Does Not Imply Causation</title>
+    <meta name="description" content="Blog section about the article: 'Correlation vs. Causation: Why Correlation Does Not Imply Causation" />
+
+    <link rel="stylesheet" href="../../css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-------------------------------- JavaScript ------------------------------------>
+    <script type="text/javascript" defer src="../../index.js" ></script>          
+    
+    <!----------------------- favicon ---------------------------------------->
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/business_portfolio.webp"/>   
+    
+    <script type="application/ld+json">
+      [ {
+        "@context" : "http://schema.org",
+        "@type" : "Article",
+        "author" : {
+          "@type" : "Person",
+          "name" : "Dimitris Fanis"
+        },
+        "image" : "https://dimi-fn.github.io/portfolio/assets/blog/corr/corr.webp",
+        "articleSection" : "Correlation vs. Causation: Why Correlation Does Not Imply Causation",
+        "articleBody" : "Correlation vs. Causation: Why Correlation Does Not Imply Causation
+        In the data analysis and decision sector the terms correlation and causation are quite often confused, however, they are not synonyms, and here are the reasons why:
+        
+        TL;DR
+        
+        - A correlation does not imply causation, but causation always implies correlation.
+        
+        - The third variable problem and the directionality problem are two of the main reasons why correlation does not imply causation.
+        
+        - Use correlational research designs to identify the correlation between variables, whereas you should use experimental designs to test causation.
+
+        Terminologies Explained
+        Correlation
+        Correlation means there is an association between variables, i.e. when one variable changes so does the other- put it more simply, it's when the variables of your dataset look like they are moving together in some way. More specifically, a correlation reflects the strength and/or direction of the association between two or more variables: a positive correlation means that both variables change in the same direction (e.g. when x is higher, y tends to be higher), whereas when the variables change in opposite directions there's a negative correlation (e.g. when x is higher, y tends to be lower). And as expected, a zero correlation means that there's no relationship between the variables.
+
+        In other words, when there is a correlation between two variables then those variables covary, and that represents a statistical indicator of the relationship between the variables. However, the reasons behind this covariation are not necessarily because of a causal link (causation), neither a direct nor a indirect causal link. Instead, there are mainly two reasons why correlation is not causation: the third variable and the directionality problem. Let's brake them down:
+
+        Why Correlation Is Not Causation
+        The third variable problem describes that there is a third variable called confounding variable (also called confounder or confounding factor), that affects the two correlated variables in a way it makes them seem causally related when in fact they are not. For example, in the summer the increase in the number of people going for a swim and the increase in violent crime rates are closely correlated, but they are not causally linked with each other because, of course, the former does not cause the other, and vice versa- what is happening here is that there is a third variable, that of the hot temperature, that has an effect on both variables separately.
+
+        And the second main reason comprises the directionality problem, which occurs when two variables correlate and might actually have a causal relationship, but there is no way to infer which variable causes the change to the other variable - you can think of that as the What came first, the chicken or the egg problem (although this seems to have been finally solved). For example, studies have shown that vitamin D levels are correlated with depression, but it’s not clear if low vitamin D causes depression, or if depression causes reduced vitamin D intake.
+
+        Note that when you want to describe the correlation between variables, it is correct to use the word relationship instead of association interchangeably, but not causation, because:
+
+        Causation
+        Causation (also known as causality) means that changes in one variable entail changes in the other. Here a cause-and-effect relationship exists: the two variables are correlated with each other and there's also a causal link between them. The events of the causation might take place either at the same time or successively one after the other.
+
+
+        All in all, a correlation does not imply causation, but causation always implies correlation. It is essential to distinguish the terms in order to infer if causality exists when two variables correlate with each other, or if they are simply correlated without a cause-and-effect relationship. For example, if you optimized part of your app during the last month and at the same time a significant increase in your app downloads occurred, then you would like to know if the particular optimization brought more users, or if it was just a coincidence.
+
+        But how can you test your data and claim if causality exists when correlation incurs? Well, you may use correlational research designs to identify the correlation between variables, whereas you should use experimental designs (e.g. randomized and experimental studies, quasi-experimental studies, etc.) to test causation."
+              } ]
+      </script>
+
+      
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="../../assets/profile.jpg"
+              alt="Dimitris Fanis Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Dimitris Fanis</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="../../index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../../index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../../index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../main.html" class="header__link">
+                Blog
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="../../index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="../../assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="../../assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="../index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../main.html"> Blog </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="../index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div id="project-img" class="project-details__showcase-img-cont">
+            <img
+              src="../../assets/blog/corr/corr.webp"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+            <!-- Image Citing -->
+            <p class="citing-main">Photo by<cite>
+              <a class="hyperlinks" href="https://unsplash.com/@m_____me?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">m.</a> </cite>on<cite> <a class="hyperlinks" href="https://unsplash.com/s/photos/statistics" target="_blank">Unsplash</a> </cite>
+            </p>
+          </div>
+          <!----------- blog section ----------->
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Correlation vs. Causation: Why Correlation Does Not Imply Causation</h3>
+              <p class="project-details__desc-para">
+                In the data analysis and decision sector the terms correlation and causation are quite often confused, however, they are not synonyms, and here are the reasons why:
+              </p>
+              <p class="project-details__desc-para">
+                <b>TL;DR</b>
+              </p>
+              <p class="project-details__desc-para">
+                - A correlation does not imply causation, but causation always implies correlation.
+              </p>
+              <p class="project-details__desc-para">
+                - The third variable problem and the directionality problem are two of the main reasons why correlation does not imply causation.
+              </p>
+              <p class="project-details__desc-para">
+                - Use correlational research designs to identify the correlation between variables, whereas you should use experimental designs to test causation.
+              </p>
+
+              <div id="project-img" class="project-details__showcase-img-cont">
+                <img
+                  src="../../assets/blog/corr/correleation_vs_causation.PNG"
+                  alt="Aricle Image: Correlation vs. Causation"
+                  class="project-details__showcase-img"
+                />
+                <!-- Image Citing -->
+                <p class="citing-main">Image by<cite>
+                  <a class="hyperlinks" href="../../index.html" target="_blank">Author</a> </cite>
+                </p>
+              </div><br><br>
+              <hr><br>
+              <h2 class="project-details__content-title" id="blog-h2">Terminologies Explained</h2>
+              <h3 class="project-details__content-title" id="blog-h3">Correlation</h3>
+              <p class="project-details__desc-para">
+                <b>Correlation</b> means there is an association between variables, i.e. when one variable changes so does the other- put it more simply, it's when the variables of your dataset look like they are moving together in some way. More specifically, a correlation reflects the strength and/or direction of the association between two or more variables: a positive correlation means that both variables change in the same direction (e.g. when x is higher, y tends to be higher), whereas when the variables change in opposite directions there's a negative correlation (e.g. when x is higher, y tends to be lower). And as expected, a zero correlation means that there's no relationship between the variables.
+              </p>
+              <p class="project-details__desc-para">
+                In other words, when there is a correlation between two variables then those variables covary, and that represents a <a class="hyperlinks" href="https://en.wikipedia.org/wiki/Indicator_(statistics" target="_blank">statistical indicator</a> of the relationship between the variables. However, the reasons behind this covariation are not necessarily because of a causal link (causation), neither a direct nor a indirect causal link. Instead, there are mainly two reasons why correlation is not causation: the <i>third variable</i> and the <i>directionality problem</i>. Let's brake them down: 
+              </p>
+              <h3 class="project-details__content-title" id="blog-h3">Why Correlation Is Not Causation</h3>
+              <p class="project-details__desc-para">
+                The <u>third variable problem</u> describes that there is a third variable called <a class="hyperlinks" href="https://en.wikipedia.org/wiki/Confounding" target="_blank">confounding variable</a> (also called confounder or confounding factor), that affects the two correlated variables in a way it makes them seem causally related when in fact they are not. For example, in the summer the increase in the number of people going for a swim and the increase in violent crime rates are closely correlated, but they are not causally linked with each other because, of course, the former does not cause the other, and vice versa- what is happening here is that there is a <i>third variable</i>, that of the hot temperature, that has an effect on both variables separately.
+                <p class="project-details__desc-para">
+                  And the second main reason comprises the <u>directionality problem</u>, which occurs when two variables correlate and might actually have a causal relationship, but there is no way to infer which variable causes the change to the other variable - you can think of that as the <i>What came first, the chicken or the egg</i> problem (although this seems to have been finally <a class="hyperlinks" href="https://www.theguardian.com/science/2006/may/26/uknews" target="_blank">solved</a>). For example, studies have shown that vitamin D levels are correlated with depression, but it’s not clear if low vitamin D causes depression, or if depression causes reduced vitamin D intake.
+                </p>
+              </p>
+              <p class="project-details__desc-para">
+                Note that when you want to describe the correlation between variables, it is correct to use the word <i>relationship</i> instead of <i>association</i> interchangeably, but not <i>causation</i>, because:
+              </p>
+              <h3 class="project-details__content-title" id="blog-h3">Causation</h3>
+              <p class="project-details__desc-para">
+                <b>Causation</b> (also known as causality) means that changes in one variable <u>entail</u> changes in the other. Here a cause-and-effect relationship exists: the two variables are correlated with each other <b><u>and</u></b> there's also a causal link between them. The events of the causation might take place either at the same time or successively one after the other.
+              </p><br>
+              <p class="project-details__desc-para">
+                All in all, a correlation does not imply causation, but causation always implies correlation. It is essential to distinguish the terms in order to infer if causality exists when two variables correlate with each other, or if they are simply correlated without a cause-and-effect relationship. For example, if you optimized part of your app during the last month and at the same time a significant increase in your app downloads occurred, then you would like to know if the particular optimization brought more users, or if it was just a coincidence. 
+              </p>               
+              <p class="project-details__desc-para">
+                But how can you test your data and claim if causality exists when correlation incurs?
+                Well, you may use <a class="hyperlinks" href="https://www.formpl.us/blog/correlational-research" target="_blank">correlational research designs</a> to identify the correlation between variables, whereas you should use <a class="hyperlinks" href="https://imai.fas.harvard.edu/research/files/Design.pdf" target="_blank">experimental designs</a> (e.g. randomized and experimental studies, quasi-experimental studies, etc.) to test causation.
+              </p>
+
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Scroll to top -->
+     <i class="scroll-up-icon" id="scroll-up-icon"
+     ><img
+       src="../../assets/icons/icons8-scroll-up-48-_1_.webp"
+       class="socicon up-arrow"
+       alt="scroll up icon"
+       title="Go to Top"
+     /></i>
+     <!-- Scroll to top -->
+
+    <!------------------------------- Footer ------------------------------->
+    <footer class="main-footer">
+
+      <div class="main-footer-container">
+        
+        <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span class="footer-socials">Connect with me</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a href="https://www.linkedin.com/in/dimitrisfanis/" title="LinkedIn" target="_blank">
+                <img
+                  src="../../assets/png/linkedin-ico.png"
+                  alt="LinkedIn icon"
+                  class="main-footer__icon"
+                />
+              </a>
+              <a href="https://github.com/dimi-fn" title="Github" target="_blank">
+                <img
+                  src="../../assets/png/github-ico.png"
+                  alt="GitHub icon"
+                  class="main-footer__icon"
+                />
+              </a>
+              <a href="https://twitter.com/dimi_fanis" title="Twitter" target="_blank">
+                <img
+                  src="../../assets/png/twitter-ico.png"
+                  alt="Twitter icon"
+                  class="main-footer__icon"
+                />
+              </a>
+              <a href="https://stackoverflow.com/users/13834173/dimi-fn?tab=profile" title="Stack Overflow" target="_blank">
+                <img
+                  src="../../assets/png/stackoverflow-ico.png"
+                  alt="Stack Overflow icon"
+                  class="main-footer__icon"
+                />
+              </a>
+              <a href="https://dimitrisfanis.medium.com/"  title="Medium" target="_blank" >
+              <img
+                src="../../assets/png/medium-ico.png"
+                alt="Medium icon"
+                class="main-footer__icon"
+                />
+              </a>
+            </div>
+          </div>
+        <div class="main-footer__lower">
+          <!-- <hr> -->
+          &copy; Copyright 2022 | Dimitris Fanis
+        </div>
+      </div>
+
+    </footer>
+    <!------------------------------- END OF: Footer ------------------------------->
+          
+
+  </body>
+</html>
